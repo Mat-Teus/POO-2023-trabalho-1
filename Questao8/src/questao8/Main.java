@@ -6,9 +6,9 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-    Pais brasil = new Pais("Brasil", "Brasilia", "Grande");
-    Pais argentina = new Pais("Argentina", "Buenos Aires", "Grande");
-    Pais uruguai = new Pais("Uruguai", "Montevideu", "Pequena");
+    Pais brasil = new Pais("Brasil", "Brasilia", "8.510.000 km²");
+    Pais argentina = new Pais("Argentina", "Buenos Aires", "2.780.000 km²");
+    Pais uruguai = new Pais("Uruguai", "Montevideu", "176.215 km²");
 
     List<Pais> fronteiraBrasil = new ArrayList<>();
     fronteiraBrasil.add(argentina);
