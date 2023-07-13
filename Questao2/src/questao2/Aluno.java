@@ -2,7 +2,7 @@ package questao2;
 
 public class Aluno extends Pessoa{
     //Atributos
-    String curso, disciplina;
+    private String curso, disciplina;
     
     //Construtores
     public Aluno(){}
