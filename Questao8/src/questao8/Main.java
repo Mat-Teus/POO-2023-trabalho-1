@@ -9,6 +9,10 @@ public class Main {
     Pais brasil = new Pais("Brasil", "Brasilia", "8.510.000 km²");
     Pais argentina = new Pais("Argentina", "Buenos Aires", "2.780.000 km²");
     Pais uruguai = new Pais("Uruguai", "Montevideu", "176.215 km²");
+    
+    System.out.println(brasil.equals(uruguai));//Retorna false
+    System.out.println(brasil.equals(argentina));//Retorna false
+    System.out.println(brasil.equals(brasil));//Retorna true
 
     List<Pais> fronteiraBrasil = new ArrayList<>();
     fronteiraBrasil.add(argentina);
